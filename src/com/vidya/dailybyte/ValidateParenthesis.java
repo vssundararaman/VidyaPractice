@@ -3,7 +3,8 @@ package com.vidya.dailybyte;
 import java.util.Stack;
 
 /**
- * This question is asked by Google. Given a string only containing the following characters (, ), {, }, [, and ] return whether or not the opening and closing characters are in a valid order.
+ * This question is asked by Google.
+ * Given a string only containing the following characters (, ), {, }, [, and ] return whether or not the opening and closing characters are in a valid order.
  * <p>
  * Ex: Given the following strings...
  * <p>
