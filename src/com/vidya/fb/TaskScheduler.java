@@ -5,7 +5,7 @@ import java.util.*;
 public class TaskScheduler {
 
     public static void main(String[] args) {
-        char[] tasks = {'A', 'Z'};
+        char[] tasks = {'A','A','A','B','B','C'};
 
         //char[] tasks = {'A', 'A'};
 
@@ -23,8 +23,6 @@ public class TaskScheduler {
 
         PriorityQueue<Integer> queue = new PriorityQueue<>((a, b) -> b - a);
         queue.addAll(charMap.values());
-
-        System.out.println(queue);
 
         int cycles = 0;
 
