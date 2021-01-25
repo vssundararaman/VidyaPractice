@@ -24,8 +24,6 @@ public class TaskScheduler {
         PriorityQueue<Integer> queue = new PriorityQueue<>((a, b) -> b - a);
         queue.addAll(charMap.values());
 
-        System.out.println(queue);
-
         int cycles = 0;
 
         while (!queue.isEmpty()) {
