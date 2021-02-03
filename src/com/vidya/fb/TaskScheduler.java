@@ -5,7 +5,7 @@ import java.util.*;
 public class TaskScheduler {
 
     public static void main(String[] args) {
-        char[] tasks = {'A', 'Z'};
+        char[] tasks = {'A','A','A','B','B','C'};
 
         //char[] tasks = {'A', 'A'};
 
